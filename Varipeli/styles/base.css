@@ -1,0 +1,31 @@
+/* Screens */
+
+.screen {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#startScreen {
+    background-image: url(../imgs/screens/StartScreen.jpg);
+}
+
+#pregameScreen {
+    background-image: url(../imgs/screens/PeliOhjeet.jpg);
+}
+
+#infoScreen {
+    background-image: url(../imgs/screens/PeliOhjeet.jpg);
+}
+
+#gameScreen {
+    background-image: url(../imgs/screens/GameScreen.jpg);
+}
+
+#factScreen {
+    background-image: url(../imgs/screens/FactScreen.jpg);
+}
+
+#endGameScreen {
+    background-image: url(../imgs/screens/EndScreen.jpg);
+}

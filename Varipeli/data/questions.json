@@ -1,0 +1,202 @@
+{
+  "fin": [
+    {
+      "question": "imgs/colors/Red.jpg",
+      "options": ["Vihreä", "Keltainen", "Punainen"],
+      "answer": "Punainen",
+      "fact": "Puolukat ovat yksi Suomen yleisimmistä marjoista. Puolukat tunnistaa niiden punaisista väristä.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Blue.jpg",
+      "options": ["Sininen", "Vihreä", "Punainen"],
+      "answer": "Sininen",
+      "fact": "Suomessa on noin 187 888 järveä, mikä tekee siitä maailman järvisimmän maan.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Green.jpg",
+      "options": ["Sininen", "Vihreä", "Oranssi"],
+      "answer": "Vihreä",
+      "fact": "Revontulet ovat kaunis valoilmiö, joita voi nähdä Pohjois-Suomessa. Niitten vihreä väri on tosi kaunis.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Brown.jpg",
+      "options": ["Ruskea", "Musta", "Violetti"],
+      "answer": "Ruskea",
+      "fact": "Suomalaiset rakastavat saunomista. Saunoja löytyy monista uimahalleista ja omakotitaloista.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Yellow.jpg",
+      "options": ["Sininen", "Violetti", "Keltainen"],
+      "answer": "Keltainen",
+      "fact": "Kantarelli on yksi suosituimmista ja kuuluisimmista suomen ruokasienistä.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Orange.jpg",
+      "options": ["Oranssi", "Sininen", "Musta"],
+      "answer": "Oranssi",
+      "fact": "Lakan nimitys vaihtelee eripäin suomea. Tätä herkullista marjaa sanotaan myös Hillaksi ja Muuraineksi riippuen missä asut.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Black.jpg",
+      "options": ["Musta", "Punainen", "Violetti"],
+      "answer": "Musta",
+      "fact": "Salmiakki on suosittu makeinen suomessa, joka maistuu suolaiselta ja makealta samanaikaisesti.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Brown2.jpg",
+      "options": ["Ruskea", "Oranssi", "Punainen"],
+      "answer": "Ruskea",
+      "fact": "Karhu on suomen kansalliseläin. Karhu on myös suurin petoeläin suomessa. Karhu on myös suomen vaakunan symboli.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/White.jpg",
+      "options": ["Musta", "Valkoinen", "Ruskea"],
+      "answer": "Valkoinen",
+      "fact": "Naali on pieni kettuun ja koiraeläimiin kuuluva nisäkäs. Naali on äärimmäisen uhanalainen laji.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Purple.jpg",
+      "options": ["Ruskea", "Violetti", "Keltainen"],
+      "answer": "Violetti",
+      "fact": "Kissankello on violetti kukka, joka kasvaa suomen luonnossa. Kissankello on ensimmäinen kukka, joka kukkii keväällä.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/White2.jpg",
+      "options": ["Vihreä", "Valkoinen", "Violetti"],
+      "answer": "Valkoinen",
+      "fact": "Lumi on tärkeä osa suomea. Lunta näkee aina talvisin vaikka missäpäin suomea olet. Suomalaiset rakentavat lumiukkoja ja hiihtävät lumessa.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Yellow2.jpg",
+      "options": ["Sininen", "Keltainen", "Punainen"],
+      "answer": "Keltainen",
+      "fact": "Talitiainen on yksi suomen kuuluisimmista linnuista. Niiden keltainen rinta on helpoin tapa havaita ne.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Red2.jpg",
+      "options": ["Sininen", "Keltainen", "Punainen"],
+      "answer": "Punainen",
+      "fact": "Monet suomalaiset sanovat että Joulupukki asuu Korvatunturilla. Joulupukki tuo lahjoja kilteille lapsille jouluna.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Brown3.jpg",
+      "options": ["Oranssi", "Ruskea", "Musta"],
+      "answer": "Ruskea",
+      "fact": "Poro on yksi laajemmista eläimistä suomessa. Vuonna 2001 Suomessa oli 185 000 poroa.",
+      "userAnswer": null
+    }
+  ],
+  "eng": [
+    {
+      "question": "imgs/colors/Red.jpg",
+      "options": ["Green", "Yellow", "Red"],
+      "answer": "Red",
+      "fact": "Cranberries are one of the most common berries in Finland. They are recognized by their red color.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Blue.jpg",
+      "options": ["Blue", "Green", "Red"],
+      "answer": "Blue",
+      "fact": "Finland has about 187 888 lakes, making it the most lake-dense country in the world.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Green.jpg",
+      "options": ["Blue", "Green", "Orange"],
+      "answer": "Green",
+      "fact": "The Northern Lights are a beautiful natural phenomenon visible in Northern Finland. Their green color is truly stunning.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Brown.jpg",
+      "options": ["Brown", "Black", "Purple"],
+      "answer": "Brown",
+      "fact": "Finns love saunas. Saunas can be found in many swimming halls and houses.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Yellow2.jpg",
+      "options": ["Blue", "Purple", "Yellow"],
+      "answer": "Yellow",
+      "fact": "Chanterelle is one of the most popular and famous Finnish mushrooms.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Orange.jpg",
+      "options": ["Orange", "Blue", "Black"],
+      "answer": "Orange",
+      "fact": "The name for cloudberries varies in different parts of Finland. This delicious berry is also called 'Hilla' and 'Muurain' depending on where you live.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Black.jpg",
+      "options": ["Black", "Red", "Purple"],
+      "answer": "Black",
+      "fact": "Salmiakki is a popular Finnish candy that tastes both salty and sweet at the same time.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Brown2.jpg",
+      "options": ["Brown", "Orange", "Red"],
+      "answer": "Brown",
+      "fact": "The bear is the national animal of Finland. It is also the largest predator in Finland. The bear is also the symbol of the Finnish coat of arms.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/White.jpg",
+      "options": ["Black", "White", "Brown"],
+      "answer": "White",
+      "fact": "The Arctic fox is a small mammal belonging to the fox and dog family. The Arctic fox is an extremely endangered species in finland.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Purple.jpg",
+      "options": ["Brown", "Purple", "Yellow"],
+      "answer": "Purple",
+      "fact": "Bluebell is a purple flower that grows in Finnish nature. Bluebell is the first flower to bloom in spring.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/White2.jpg",
+      "options": ["Green", "White", "Purple"],
+      "answer": "White",
+      "fact": "Snow is an important part of Finland. You can always see snow in winter no matter where in Finland you are. Finns build snowmen and ski in the snow.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Yellow2.jpg",
+      "options": ["Blue", "Yellow", "Red"],
+      "answer": "Yellow",
+      "fact": "The great tit is one of Finland's most famous birds. Their yellow chest is the easiest way to spot them.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Red2.jpg",
+      "options": ["Blue", "Yellow", "Red"],
+      "answer": "Red",
+      "fact": "Many Finns say Santa Claus lives in Korvatunturi. Santa Claus brings gifts to children who have behaved good during Christmas.",
+      "userAnswer": null
+    },
+    {
+      "question": "imgs/colors/Brown3.jpg",
+      "options": ["Orange", "Brown", "Black"],
+      "answer": "Brown",
+      "fact": "The reindeer is one of the larger animals in Finland. In 2001, there were 185 000 reindeer in Finland.",
+      "userAnswer": null
+    }
+  ]
+}

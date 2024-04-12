@@ -1,0 +1,657 @@
+/* Loading screen */
+
+.loadingText {
+    position: absolute;
+    top: 50%;
+    left: 53%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+}
+
+.ring {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 300px;
+    background: transparent;
+    border: 3px solid #3c3c3c;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 150px;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #fff000;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px #fff000;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+
+.ring:before {
+    content: '';
+    position: absolute;
+    top: -3px;
+    left: -3px;
+    width: 100%;
+    height: 100%;
+    border: 3px solid transparent;
+    border-top: 3px solid #fff000;
+    border-right: 3px solid #fff000;
+    border-radius: 50%;
+    animation: animateC 2s linear infinite;
+}
+
+.ring span {
+    display: block;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 50%;
+    width: 50%;
+    height: 4px;
+    background: transparent;
+    transform-origin: left;
+    animation: animate 2s linear infinite;
+}
+
+.ring span:before {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #fff000;
+    top: -6px;
+    right: -8px;
+    box-shadow: 0 0 20px #fff000;
+}
+
+@keyframes animateC {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(45deg);
+    }
+
+    100% {
+        transform: rotate(405deg);
+    }
+}
+
+/* Start Screen */
+
+.StartButton {
+    background-color: hsl(0, 0%, 100%);
+    color: rgb(0, 0, 0);
+    font-size: 2.4rem;
+    position: absolute;
+    top: 86.3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+    display: inline-block;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transition: color 0.3s;
+}
+
+.StartButton:hover {
+    color: #42ff4b;
+}
+
+#finButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(0, 38, 255);
+    width: 155px;
+    height: 60px;
+    position: absolute;
+    top: 36.3%;
+    left: 8.3%;
+    border: none;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+}
+
+#engButton {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2rem;
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(255, 0, 0);
+    background-color: transparent;
+    width: 155px;
+    height: 60px;
+    position: absolute;
+    top: 46.8%;
+    left: 4.2%;
+    border: none;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    text-align: center;
+
+}
+
+#chosenText {
+    font-size: 2rem;
+    font-weight: bold;
+    -webkit-text-stroke: 1.8px black;
+    color: white;
+    position: absolute;
+    left: 30%;
+}
+
+.startTitle {
+    position: absolute;
+    right: 3%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.5));
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(255, 196, 0), rgb(0, 255, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.languages {
+    position: absolute;
+    top: 26%;
+    left: 7.5%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.5));
+    color: transparent;
+    background-image: linear-gradient(to right, rgb(255, 196, 0), rgb(0, 255, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Pregame Screen */
+
+.ContinueButton {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(214, 100%, 41%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    border: none;
+    top: 86.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ContinueButton:hover {
+    color: hsl(214, 100%, 71%);
+}
+
+.pregameTitle {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.2));
+    color: transparent;
+    background-image: linear-gradient(90deg, white 30%, blue 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.pregameText {
+    position: absolute;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.2));
+    overflow-y: auto;
+}
+
+#pregameText1 {
+    top: 23%;
+    left: 50%;
+    width: 500px;
+    transform: translateX(-50%);
+}
+
+#pregameText2 {
+    top: 47%;
+    left: 50%;
+    width: 500px;
+    transform: translateX(-50%);
+}
+
+.pregameGoodLuck {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.2));
+    color: transparent;
+    background-image: linear-gradient(240deg, white 20%, blue 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Info screen */
+
+.InfoContinueButton {
+    position: absolute;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(214, 100%, 41%);
+    text-align: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    border: none;
+    top: 86.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.InfoContinueButton:hover {
+    color: hsl(214, 100%, 41%, 75%);
+}
+
+.infoTitle {
+    position: absolute;
+    left: 50%;
+    top: 10%;
+    transform: translateX(-50%);
+    font-size: 3.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.2));
+    color: transparent;
+    background-image: linear-gradient(90deg, white 30%, blue 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.infoText {
+    position: absolute;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.2));
+    overflow-y: auto;
+}
+
+#infoText1 {
+    top: 23%;
+    left: 50%;
+    width: 500px;
+    transform: translateX(-50%);
+}
+
+#infoText2 {
+    top: 47%;
+    left: 50%;
+    width: 500px;
+    transform: translateX(-50%);
+}
+
+.infoGoodLuck {
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translateX(-50%);
+    font-size: 2.5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 0.2));
+    color: transparent;
+    background-image: linear-gradient(240deg, white 20%, blue 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+/* Game Screen */
+
+.gameTitle{
+    position: absolute;
+    left: 50%;
+    top: 7.5%;
+    width: 600px;
+    transform: translateX(-50%);
+    font-size: 5rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 1));
+    color: white;
+    text-align: center;
+}
+
+.gameScore {
+    position: absolute;
+    font-size: 2rem;
+    right: 15%;
+    top: 26.5%;
+    font-weight: bold;
+}
+
+.gameImage {
+    position: absolute;
+    height: 250px;
+    width: 380px;
+    left: 50%;
+    top: 34%;
+    transform: translateX(-50%);
+    filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.76));
+}
+
+.options {
+    position: absolute;
+    display: flex;
+    justify-content: space-around;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 86%;
+    bottom: 45px;
+}
+
+.option {
+    font-size: 2rem;
+    display: inline-block;
+    background-color: white;
+    border-radius: 75px;
+    border: 2px solid hsl(0, 0%, 0%);
+    padding: 10px 20px;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+
+    filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.726));
+}
+
+.option:hover {
+    background-color: rgb(219, 219, 219);
+    transition: 0.2s;
+}
+
+.helpButton {
+    position: absolute;
+    top: 27%;
+    left: 12%;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    transform: scale(0.8);
+}
+
+.helpButton:hover {
+    content: url('../imgs/icons/lightbulbQuestionYellow.png');
+    transform: scale(0.9);
+    transition: 0.2s;
+    filter: drop-shadow(0 0 20px rgb(255, 255, 0));
+}
+
+.gameButton {
+    position: absolute;
+}
+
+#previousButton {
+    bottom: 50%;
+    left: 3%;
+    width: 6vmin;
+	height: 6vmin;
+    transform: rotate(-135deg);
+    cursor: url('../imgs/icons/pointer.png'), auto;
+}
+
+#previousButton::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: .8vmin .8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: .2s ease;
+    display: block;
+    transform-origin: 100% 0;
+}
+
+#previousButton::after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    border-width: 0 .8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transform-origin: 100% 0;
+    transition: .2s ease;
+}
+
+#previousButton:hover::before {
+    border-color: rgb(219, 219, 219);
+    transform: scale(.8);
+}
+
+#previousButton:hover::after {
+    transform: rotate(45deg);
+    border-color: rgb(219, 219, 219);
+    height: 120%;
+}
+
+#nextButton {
+    bottom: 50%;
+    right: 3%;
+    width: 6vmin;
+    height: 6vmin;
+    transform: rotate(45deg);
+    cursor: url('../imgs/icons/pointer.png'), auto;
+}
+
+#nextButton::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    border-width: .8vmin .8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transition: .2s ease;
+    display: block;
+    transform-origin: 100% 0;
+}
+
+#nextButton::after {
+    content: '';
+    float: left;
+    position: relative;
+    top: -100%;
+    width: 100%;
+    height: 100%;
+    border-width: 0 .8vmin 0 0;
+    border-style: solid;
+    border-color: #fafafa;
+    transform-origin: 100% 0;
+    transition: .2s ease;
+}
+
+#nextButton:hover::before {
+    border-color: rgb(219, 219, 219);
+    transform: scale(.8);
+}
+
+#nextButton:hover::after {
+    transform: rotate(45deg);
+    border-color: rgb(219, 219, 219);
+    height: 120%;
+}
+
+/* Fact Screen */
+
+.factTitle{
+    position: absolute;
+    left: 50%;
+    top: 2%;
+    width: 700px;
+    transform: translateX(-50%);
+    font-size: 4rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 1));
+    color: rgb(240, 0, 0);
+    text-align: center;
+}
+
+.factText {
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 495px;
+    height: 270px;
+}
+
+.factText p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    overflow-y: auto;
+}
+
+.factContinue {
+    position: absolute;
+    padding: 10px 20px;
+    -webkit-text-stroke: 1.8px black;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(0, 100%, 50%);
+    font-size: 2.5rem;
+    cursor: url('../imgs/icons/pointer.png'), auto;
+
+    border: none;
+    top: 87%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.factContinue:hover {
+    color: rgb(255, 119, 119);
+    transition: 0.2s
+}
+
+.factGameImage {
+    position: absolute;
+    height: 250px;
+    width: 380px;
+    left: 50%;
+    top: 39%;
+    transform: translateX(-50%);
+    filter: drop-shadow(-10px 10px 10px rgba(0, 0, 0, 0.76));
+}
+
+/* End Game Screen */
+
+.endGameTitle {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    width: 700px;
+    transform: translateX(-50%);
+    font-size: 4rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 1));
+    color: transparent;
+    background: linear-gradient(to right,  rgb(255, 166, 0) 40%, rgba(255,255,255,1) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+
+.endGameText {
+    position: absolute;
+    left: 50%;
+    top: 15%;
+    width: 700px;
+    transform: translateX(-50%);
+    font-size: 3rem;
+    font-weight: bold;
+    -webkit-text-stroke: 2px black;
+    filter: drop-shadow(-10px 10px 10px hsl(0, 0%, 0%, 1));
+    color: transparent;
+    background: linear-gradient(to right,  rgb(255, 166, 0) 40%, rgba(255,255,255,1) 60%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    text-align: center;
+}
+
+.retryButton {
+    position: absolute;
+    padding: 10px 20px;
+    left: 50%;
+    bottom: 12%;
+    transform: translateX(-50%);
+
+    cursor: url('../imgs/icons/pointer.png'), auto;
+    font-size: 1.4rem;
+    border: 0px solid hsl(0, 0%, 0%);
+    background-color: rgb(255, 255, 255);
+    color: rgb(255, 146, 45);
+}
+
+.retryButton:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.scoreText {
+    position: absolute;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+
+    color: white;
+    -webkit-text-stroke: 1px rgb(255, 146, 45)
+}
+
+.timerText {
+    position: absolute;
+    font-size: 3.5rem;
+    width: 100%;
+    text-align: center;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+
+    color: white;
+    -webkit-text-stroke: 1px rgb(255, 146, 45)
+}
+
+#madeBy {
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    color: white;
+}
